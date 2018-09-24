@@ -127,97 +127,96 @@
 
 **22. Batch normalization ― It is a step of hyperparameter γ,β that normalizes the batch {xi}. By noting μB,σ2B the mean and variance of that we want to correct to the batch, it is done as follows:**
 
-&#10230;
+&#10230; 22. Batch normalization -  è uno step di iper-parametri γ,β che normalizza il batch {xi}. Indicando con μB,σ2B rispettivamente la media e la varianza di quanto vogliamo normalizzare il batch, allora:
 
 <br>
 
 **23. It is usually done after a fully connected/convolutional layer and before a non-linearity layer and aims at allowing higher learning rates and reducing the strong dependence on initialization.**
 
-&#10230;
+&#10230; 23. Tipicamente è applicata dopo un layer totalmente connesso o convoluzionale e prima di un layer non lineare al fine di consentire learning rate più alti e ridurre dipendenze forti dovute all'inizializzazione.
 
 <br>
 
 **24. Recurrent Neural Networks**
 
-&#10230;
+&#10230; 24. Reti neurali ricorrenti (RNN)
 
 <br>
 
 **25. Types of gates ― Here are the different types of gates that we encounter in a typical recurrent neural network:**
 
-&#10230;
+&#10230; 25. Tipi di gate - A seguire le differenti tipologie di gate che è possibile incontrare in una tipica rete ricorrente.
 
 <br>
 
 **26. [Input gate, forget gate, gate, output gate]**
 
-&#10230;
+&#10230; 26. [Input gate, forget gate, gate, output gate]
 
 <br>
 
 **27. [Write to cell or not?, Erase a cell or not?, How much to write to cell?, How much to reveal cell?]**
 
-&#10230;
+&#10230; 27. Scrivere una cella o no? Svuotare una cella o no, Quanto scrivere? Quanto rivelare?
 
 <br>
 
 **28. LSTM ― A long short-term memory (LSTM) network is a type of RNN model that avoids the vanishing gradient problem by adding 'forget' gates.**
 
-&#10230;
+&#10230; 28. LSTM - Una rete long short-term memory (LSTM) è un tipo di RNN che evita il problema della scomparsa del gradiente aggiungendo dei 'forget' gate.
 
 <br>
 
 **29. Reinforcement Learning and Control**
 
-&#10230;
-
+&#10230; 29. Reinforcement Learning e Controllo
 <br>
 
 **30. The goal of reinforcement learning is for an agent to learn how to evolve in an environment.**
 
-&#10230;
+&#10230; 30. Il reinforcement learning ha il fine di rendere un agente capace di apprendere come evolvere in un ambiente
 
 <br>
 
 **31. Definitions**
 
-&#10230;
+&#10230; 31. Definizioni
 
 <br>
 
 **32. Markov decision processes ― A Markov decision process (MDP) is a 5-tuple (S,A,{Psa},γ,R) where:**
 
-&#10230;
+&#10230; 32. Processo decisionale di Markov - Un processo decisionale di Markov (MDP) è una 5-tupla (S,A,{Psa},γ,R) dove:
 
 <br>
 
 **33. S is the set of states**
 
-&#10230;
+&#10230; 33. S è l'insieme degli stati
 
 <br>
 
 **34. A is the set of actions**
 
-&#10230;
+&#10230; 34. A è l'insieme delle azioni
 
 <br>
 
 **35. {Psa} are the state transition probabilities for s∈S and a∈A**
 
-&#10230;
+&#10230; 35. {Psa} sono le probabilità di transizione di stato per s∈S e a∈A
 
 <br>
 
 **36. γ∈[0,1[ is the discount factor**
 
-&#10230;
+&#10230; 36. γ∈[0,1[ è il fattore di sconto
 
 <br>
 
 **37. R:S×A⟶R or R:S⟶R is the reward function that the algorithm wants to maximize**
 
-&#10230;
+&#10230; 37. R:S×A⟶R o R:S⟶R è la funzione premio (reward) che l'algoritmo deve massimizzare
 
 <br>
 
